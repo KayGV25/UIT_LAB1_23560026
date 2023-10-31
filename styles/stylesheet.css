@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F9F7F7;
+    color: #3F72AF;
+}
+table{
+    height: 20vw;
+    text-align: center;
+    width: 100%;
+    border-spacing: 1vw;
+}
+tr,td,th{
+    border: 3px solid #264469;
+    padding: 2vw;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+a:visited, a:hover{
+    color: #264469;
+}
+a:hover{
+    font-size: 3.25vh;
+}
+ul{
+    border-left: 3px solid #264469;
+}
+h2{
+    color: #264469;
+}
+
+.Head{
+    color: #264469;
+    letter-spacing: normal;
+    transition: all 0.5s ease;
+    font-size: 10vh;
+}
+.Head:hover{
+    letter-spacing: 4px;
+}
+.Name{
+    transition: all 0.5s ease;
+}
+.Name:hover{
+    font-size: 5vh;
+}
+.Avatar{
+    width: 15vw;
+    margin: 0;
+    padding: 0;
+}
+.Self-Des{
+    width: 100%;
+    border: none;
+}
+.Des{
+    padding-left: 3%;
+    text-align: left;
+}
+.info{
+    display: grid;
+    grid-template-areas: "contacts hobbies";
+}
+.hobbies{
+    grid-area: "hobbies";
+}
+.contacts{
+    grid-area: "contacts";
+}
