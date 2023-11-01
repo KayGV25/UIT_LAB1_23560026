@@ -76,3 +76,9 @@ h2{
 .contacts{
     grid-area: "contacts";
 }
+.share{
+    width: 100%;
+    z-index: 99;
+    position: relative;
+    padding-top: 10vh;
+}
